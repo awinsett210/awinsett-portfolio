@@ -11,7 +11,7 @@ from langchain_core.output_parsers import StrOutputParser
 load_dotenv('./.env')
 
 
-loader = PyMuPDFLoader("datafiles/History_of_Americas_speedways_past_present_-_2nd_ed_Comstock_Park_Mich.pdf")
+loader = PyMuPDFLoader("datafiles/racing-in-amaerica.pdf")
 docs = loader.load()
 
 len(docs)
